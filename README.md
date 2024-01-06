@@ -1,18 +1,7 @@
-# Intel_Image_Classification
-"Deep learning-based image classification on the Intel dataset using pretrained CNN models (like VGG16 and ResNet) with Keras.
+# Malaria-Cell-Image-classification
+Image classsification task using Malaria Cell Image dataset available on Kaggle
 
-# Overview 
-This repository contains a deep learning-based approach to classify images from the Intel dataset using pretrained Convolutional Neural Networks (CNNs) such as VGG16 and ResNet, implemented in Keras.
+1. First approach is done using the standard convolutional layers using dropout, batch normalization.(The code is inspired from the internet).
+2. In the second approach transfer learning is used to classify the images using ResNet50.
 
-# Dataset 
-The Intel Image Classification dataset comprises images of natural scenes from around the world. It includes six categories: buildings, forests, glaciers, mountains, sea, and streets.
-
-# Features 
-Pretrained Models: Utilizes powerful pretrained models like VGG16 and ResNet for feature extraction and classification.
-
-Keras Implementation: Easy-to-follow and modular codebase built with Keras for extensibility and rapid experimentation.
-Transfer Learning: Leverages transfer learning to achieve high accuracy with minimal training time.
-
-# Results 
-The model achieved an accuracy of  on the test set.
-
+The part of the code is sourced from : Bhattiprolu, S. (2023, August 23). 330 - Fine tuning Detectron2 for instance segmentation using custom data [Video]. YouTube. https://youtu.be/cEgF0YknpZw
